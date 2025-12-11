@@ -555,8 +555,8 @@ body {
 
         <div id="wrapper">
             <div class="flag__birthday">
-                <img src="./images/1.png" alt width="350" class="flag__left">
-                <img src="./images/1.png" alt width="350" class="flag__right">
+                <img src="1.png" alt width="350" class="flag__left">
+                <img src="1.png" alt width="350" class="flag__right">
             </div>
 
             <div class="content">
@@ -580,7 +580,7 @@ body {
                             <span style="--t: 3.2s;">y</span>
                         </h1>
                         <div class="hat">
-                            <img src="./images/hat.png" alt width="130">
+                            <img src="hat.png" alt width="130">
                         </div>
                     </div>
 
@@ -608,7 +608,7 @@ body {
                 <div class="right">
                     <div class="box__account">
                         <div class="image">
-                            <img src="photos/avatar.png" alt>
+                            <img src="avatar.png" alt>
                         </div>
                         <div class="name">
                             <i class="fa-solid fa-heart"></i>
@@ -616,10 +616,10 @@ body {
                             <i class="fa-solid fa-heart"></i>
                         </div>
                         <div class="balloon_one">
-                            <img width="100px" src="./images/balloon1.png" alt>
+                            <img width="100px" src="balloon1.png" alt>
                         </div>
                         <div class="balloon_two">
-                            <img width="100px" src="./images/balloon2.png" alt>
+                            <img width="100px" src="balloon2.png" alt>
                         </div>
                     </div>
 
@@ -653,21 +653,21 @@ body {
             <div class="decorate_star star5" style="--t: 10.8s;"></div>
 
             <div class="decorate_flower--one" style="--t: 10s;"><img width="20"
-                    src="./images/decorate_flower.png" alt></div>
+                    src="decorate_flower.png" alt></div>
             <div class="decorate_flower--two" style="--t: 10.3s;"><img
-                    width="20" src="./images/decorate_flower.png" alt></div>
+                    width="20" src="decorate_flower.png" alt></div>
             <div class="decorate_flower--three" style="--t: 10.6s;"><img
-                    width="20" src="./images/decorate_flower.png" alt></div>
-            <div class="decorate_bottom"><img src="./images/decorate.png" alt
+                    width="20" src="decorate_flower.png" alt></div>
+            <div class="decorate_bottom"><img src="decorate.png" alt
                     width="100"></div>
-            <div class="smiley__icon"><img src="./images/smiley_icon.png" alt
+            <div class="smiley__icon"><img src="smiley_icon.png" alt
                     width="100"></div>
 
             <div class="boxMail">
                 <i class="fa-solid fa-xmark"></i>
                 <div class="boxMail-container">
                     <div class="card1">
-                        <div class="userImg"><img src="photos/avatar.png"
+                        <div class="userImg"><img src="avatar.png"
                                 alt></div>
                         <h4 class="username">To: Anjali 💖<span
                                 class="underline"></span></h4>
@@ -693,7 +693,7 @@ body {
                     <div class="letter-container">
                         <div class="letter-left">
                             <div class="userImg">
-                                <img id="avatarImg" src="photos/avatar.png"
+                                <img id="avatarImg" src="avatar.png"
                                     alt="avatar">
                             </div>
                             <h4 class="username">To: Anjali 💖</h4>
@@ -764,7 +764,7 @@ body {
             <div id="timeLabel" style="font-size:13px;color:#333;">0:00</div>
 
             <audio id="bgAudio" loop>
-                <source src="Happy Birthday Piano Version.mp3" type="audio/mpeg">
+                <source src="" type="audio/mpeg">
             </audio>
         </div>
 
@@ -787,11 +787,11 @@ body {
 
       // book pages data (only declared once)
       const pages = [
-        'photos/pic1.jpg',
-        'photos/pic2.jpg',
-        'photos/pic3.jpg',
-        'photos/pic4.jpg',
-        'photos/pic5.jpg'
+        'pic1.jpg',
+        'pic2.jpg',
+        'pic3.jpg',
+        'pic4.jpg',
+        'pic5.jpg'
       ];
       let current = 0; // current page index
 
@@ -841,7 +841,7 @@ body {
 
         // put the photo inside avatar circle (replace src if you want a different image)
         const avatar = document.getElementById('avatarImg');
-        if (avatar) avatar.src = 'photos/avatar.png';
+        if (avatar) avatar.src = 'avatar.png';
 
         // show overlay
         letterBox.style.display = 'flex';
@@ -1087,4 +1087,5 @@ body {
     })();
         </script>
     </body>
+
 </html>
